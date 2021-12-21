@@ -1,0 +1,160 @@
+html {
+    height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.user:hover {
+    background-color: rgb(229, 255, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.user:active {
+    filter: invert(0.90);
+}
+
+.user__wrapp {
+    width: 30%;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: rgb(0, 247, 255);
+}
+
+.user__result {
+    border-bottom: 1px solid #000;
+}
+
+.post__wrapp {
+    width: 30%;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: rgb(0, 247, 255);
+
+}
+
+.post__result {
+    border-bottom: 1px solid #000;
+}
+
+.comment__wrapp {
+    width: 30%;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: rgb(0, 247, 255);
+
+}
+
+.comment__result {
+    border-bottom: 1px solid #000;
+}
+
+.user {
+    border-top: 1px solid #000;
+    padding: 20px;
+}
+
+.user__name::before {
+    content: "name: ";
+    font-size: 22px;
+    color: rgb(23, 131, 255);
+
+}
+
+.user__email::before {
+    content: "email: ";
+    font-size: 22px;
+    color: rgb(23, 131, 255);
+
+}
+
+.user__country::before {
+    content: "country: ";
+    font-size: 22px;
+    color: rgb(23, 131, 255);
+
+}
+
+.user__company::before {
+    content: "company: ";
+    font-size: 22px;
+    color: rgb(23, 131, 255);
+
+}
+
+.user__website::before {
+    content: "website: ";
+    font-size: 22px;
+    color: rgb(23, 131, 255);
+}
+
+.post {
+    border: 1px solid #000;
+    transition: all 0.4s ease-in-out;
+}
+
+.post:hover {
+    filter: invert(0.60);
+}
+
+.post__title::before {
+    content: "Title: ";
+    font-size: 22px;
+    color:rgb(250, 158, 20);
+}
+
+.post__body::before {
+    content: "body: ";
+    font-size: 22px;
+    color:rgb(255, 155, 5);
+}
+
+.commit {
+    border: 1px solid #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.commit:hover {
+    filter: invert(0.70);
+}
+
+.commit__name::before {
+    content: "Title: ";
+    font-size: 22px;
+}
+
+.commit__email::before {
+    content: "email: ";
+    font-size: 22px;
+}
+
+.commit__body::before {
+    content: "commit: ";
+    font-size: 22px;
+}
